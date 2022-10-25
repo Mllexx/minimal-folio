@@ -1,0 +1,9 @@
+#social-icon-links{
+    display: flex;
+}
+#social-icon-links li{
+    list-style: none;
+}
+#intro{
+    text-align: left;
+}
