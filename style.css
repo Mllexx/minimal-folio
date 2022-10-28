@@ -1,3 +1,36 @@
+body{
+    font-family: 'rubik', sans-serif;
+    font-weight: 100;
+}
+body > * {
+    font-family: 'rubik', sans-serif;
+    font-weight: 100;
+}    
+.nav-link{
+    color: black;
+    display: inline-block;
+    position: relative;
+}
+.nav-link:hover{
+    color: black;
+}
+.nav-link:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: 
+    #818080;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.nav-link:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
 #social-icon-links{
     display: flex;
 }
