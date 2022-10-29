@@ -12,7 +12,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.typekit.net/xnq0kyk.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="style.css">
   
     <style>
@@ -44,9 +44,9 @@
                             <span class="fw-bold"> Andrew Muleke</span>
                         </h1>
                         <h3 id="byline" class="fw-light">Entreprenuer, Software Engineer with Systems Engineering experience; Sometimes I write 🙂🤓</h3>
-                        <button class="btn btn-outline-secondary">Find Out More 
+                        <a class="btn btn-outline-secondary" href="#what-id-do">Find Out More 
                             <i class="fa fa-arrow-down"></i>
-                        </button>
+                        </a>
                     </div>
                     <div id="image" class="px-0 img-fluid" style="width: 35vw ;">
                         <picture>
@@ -221,15 +221,15 @@
             </div>
 
             <!-- CONTACT FORM & CALL TO ACTION -->
-            <div id="footer" class="px-0 py-5">
+            <div id="footer" class="px-0 pt-5 pb-0">
                 <div class="row text-start px-0">
                     <div class="col">
-                        <h4>Just say hi</h4>
-                        <p>I'm always open to discuss your project and talk about new things.</p>
+                        <h3 class="fw-bold py-3">Just say hi</h4>
+                        <p class="fs-3 py-4">I'm always open to discuss your project and talk about new things.</p>
                         <div class="row">
                             <div class="col">
-                                <span>Mail me at:</span>
-                                <a href="mailto:mulekea3@gmail.com"></a>
+                                <span class="">Mail me at:</span>
+                                <a class="d-block py-3" href="mailto:mulekea3@gmail.com">mulekea3@gmail.com</a>
                             </div>
                             <div class="col">
                                 <span>Follow me:</span>
@@ -256,17 +256,16 @@
                     </div>
                     <div class="col text-bg-dark">
                         <form class="form">
-                            <input type="text" placeholder="Your name:"/>
-                            <div class="form-floating">
-                                <input class="form-control" id="senders_name" type="text" placeholder="Your name:"/>
-                                <label for="senders_name">Your name:</label>
-                                
-                            </div>
+                            <input class="" type="text" placeholder="Your name:"/>
+                            <input class="" type="text" placeholder="Your email address:"/>
+                            <input class="" type="text" placeholder="Your budget:"/>
+                            <textarea class="" rows="3" placeholder="Your project's description:"></textarea>
+                            <button class="btn btn-light">Submit</button>
                         </form>
                     </div>
                 </div>
                 <div class="row">
-                    <p class="py-4"> Copyright 	&copy; 2022. All rights reserved</p>
+                    <p class="pt-4 pb-0"> Copyright 	&copy; 2022. All rights reserved</p>
                 </div>
             </div>
         </main>
