@@ -14,11 +14,6 @@
     <link rel="stylesheet" href="https://use.typekit.net/xnq0kyk.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="style.css">
-  
-    <style>
-        
-    </style>
-
   </head>
   <body class="d-flex h-100 text-center text-bg-light">
     
@@ -35,10 +30,10 @@
         </header>
 
         <main class="px-1" style="height: 100vh;">
-            <div class="hero-section" style="height: 100vh; margin:3em auto auto auto; ">
+            <div id="hero-section">
                 <!-- FIRST ROW -->
-                <div class="row">
-                    <div id="intro" class="px-3 text-left" style="width: 62vw; height: 10vh; margin:auto 0;" >
+                <div class="row d-flex align-middle">
+                    <div id="intro" class="col-lg-8 col-md-8 col-sm-6 col-xs-12 text-left">
                         <h1 id="title" class="fs-1">
                             <span class="fw-light">I'm</span>
                             <span class="fw-bold"> Andrew Muleke</span>
@@ -48,13 +43,12 @@
                             <i class="fa fa-arrow-down"></i>
                         </a>
                     </div>
-                    <div id="image" class="px-0 img-fluid" style="width: 35vw ;">
+                    <div id="image" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 px-0 img-fluid">
                         <picture>
                             <source srcset="undraw_programming_re_kg9v.svg" type="image/svg+xml" />
                             <img class="img-fluid" src="undraw_programming_re_kg9v.svg"  />
                         </picture>
                     </div>
-                    
                 </div>
                 <!-- SECOND ROW -->
                 <div class="row">
@@ -71,11 +65,9 @@
                             <li class="px-2 py-3">
                                 <i class="fa-brands fa-twitter"></i>
                             </li>
-                            
                             <li class="px-2 py-3">
                                 <i class="fa-brands fa-medium"></i>
                             </li>
-                            
                         </ul>
                         <!-- EMAIL ADDRESS -->
                         <a class="px-0 py-3" href="mailto:mulekea3@gmail.com">mulekea3@gmail.com</a>
@@ -118,56 +110,56 @@
             <div id="what-id-do" class="px-0 py-5">
                 <h3 class="section-title text-start py-5" style="font-weight:bold;">Skills</h3>
                 <div class="section-content row align-items-center text-start py-4" style="border-bottom: 1px solid;">
-                    <div class="col">
+                    <div class="col-lg-2 col-md-2 col-sm-6">
                         <i class="fa-brands fa-2xl fa-html5"></i>
                         <h5 class="segment-title py-2 fw-light">HTML5</h5>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-2 col-md-2 col-sm-6">
                         <i class="fa-brands fa-2xl fa-js"></i>
                         <h5 class="segment-title py-2 fw-light">JavaScript</h5>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-2 col-md-2 col-sm-6">
                         <i class="fa-brands fa-2xl fa-css3"></i>
                         <h5 class="segment-title py-2 fw-light">CSS</h5>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-2 col-md-2 col-sm-6">
                         <i class="fa-brands fa-2xl fa-wordpress-simple"></i>
                         <h5 class="segment-title py-2 fw-light">WordPress</h5>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-2 col-md-2 col-sm-6">
                         <i class="fa-brands fa-2xl fa-vuejs"></i>
                         <h5 class="segment-title py-2 fw-light">Vue JS</h5>
                     </div>
-                    <div class="col">
-                        <i class="fa fa-2xl fa-mobile-alt"></i>
-                        <h5 class="segment-title py-2 fw-light">Mobile Apps</h5>
+                    <div class="col-lg-2 col-md-2 col-sm-6">
+                        <i class="fa-brands fa-2xl fa-react"></i>
+                        <h5 class="segment-title py-2 fw-light">React</h5>
                     </div>
                 </div>
                 <!-- -->
                 <div class="section-content row align-items-center text-start py-4" style="border-bottom: 1px solid;">
-                    <div class="col">
+                    <div class="col-lg-2 col-md-2 col-sm-4">
                         <i class="fa-brands fa-2xl fa-java"></i>
                         <h5 class="segment-title py-2 fw-light">Java</h5>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-2 col-md-2 col-sm-4">
                         <i class="fa-brands fa-2xl fa-android"></i>
-                        <h5 class="segment-title py-2 fw-light">UI & UX Design</h5>
+                        <h5 class="segment-title py-2 fw-light">Android</h5>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-2 col-md-2 col-sm-4">
                         <i class="fa-brands fa-2xl fa-python"></i>
                         <h5 class="segment-title py-2 fw-light">Python</h5>
                     </div>
-                    <div class="col">
-                        <i class="fa fa-2xl fa-laptop-code"></i>
-                        <h5 class="segment-title py-2 fw-light">Backend Development</h5>
+                    <div class="col-lg-2 col-md-2 col-sm-4">
+                        <i class="fa-brands fa-2xl fa-php"></i>
+                        <h5 class="segment-title py-2 fw-light">PHP</h5>
                     </div>
-                    <div class="col">
-                        <i class="fa fa-2xl fa-palette"></i>
-                        <h5 class="segment-title py-2 fw-light">UI & UX Design</h5>
+                    <div class="col-lg-2 col-md-2 col-sm-4">
+                        <i class="fa-brands fa-2xl fa-linux"></i>
+                        <h5 class="segment-title py-2 fw-light">Linux</h5>
                     </div>
-                    <div class="col">
-                        <i class="fa fa-2xl fa-mobile-alt"></i>
-                        <h5 class="segment-title py-2 fw-light">Mobile Apps</h5>
+                    <div class="col-lg-2 col-md-2 col-sm-4">
+                        <i class="fa-brands fa-2xl fa-git"></i>
+                        <h5 class="segment-title py-2 fw-light">Git</h5>
                     </div>
                 </div>
             </div>
@@ -219,7 +211,7 @@
             <!-- CONTACT FORM & CALL TO ACTION -->
             <div id="footer" class="px-0 pt-5 pb-0">
                 <div class="row text-start px-0">
-                    <div class="col">
+                    <div class="col-lg-6 col-md-6 col-xs-12">
                         <h3 class="fw-bold py-3">Just say hi</h4>
                         <p class="fs-3 py-4">I'm always open to discuss your project and talk about new things.</p>
                         <div class="row">
@@ -246,7 +238,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col text-bg-dark">
+                    <div class="col-lg-6 col-md-6 col-xs-12 text-bg-dark">
                         <form class="form">
                             <input class="" type="text" placeholder="Your name:"/>
                             <input class="" type="text" placeholder="Your email address:"/>

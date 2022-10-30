@@ -56,3 +56,15 @@ form{
 button{
     border-radius: 0;
 }
+#hero-section{
+}
+
+@media screen and (min-width: 769px) {
+    #hero-section{
+        height: 70%;
+    }
+    #hero-section .row{
+        margin-top: 30vh;
+    }
+}
+
