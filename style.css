@@ -38,6 +38,9 @@ a:hover{
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+#logo{
+    width: 60px;
+}
 #social-icon-links{
     display: flex;
 }
