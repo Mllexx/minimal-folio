@@ -69,6 +69,9 @@ button{
 #hero-section{
     height: 100vh;
 }
+main{
+    height: 100vh;
+}
 
 @media screen and (min-width: 769px) {
     #hero-section{
@@ -80,9 +83,17 @@ button{
     #intro #image{
         margin-top: -2em !important;
     }
+    #mobile-menu-icon{
+        display: none;
+    }
 }
 
+
 @media screen and (max-width:768px) {
+    
+    nav{
+        display: none !important;
+    }
     #intro #image{
         padding: 2em 3em 0 3em !important;
     }
@@ -92,6 +103,9 @@ button{
     }
     .content-segment{
         margin-top: -6em;
+    }
+    #social-icon-links-box{
+        display: none !important;
     }
 }
 

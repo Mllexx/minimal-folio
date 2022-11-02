@@ -16,22 +16,65 @@
   </head>
   <body class="d-flex h-100 text-center text-bg-light">
     
+
+    
+
+
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <header class="mb-auto">
-            <div>
-            <div id="logo" class="float-md-start mb-0">
-                <img alt="logo" class="img-fluid" src="am-transparent-black-logo.svg"  />
+
+
+
+        <header class="mb-auto">        
+        <!--Navbar-->
+        <nav class="navbar navbar-light light-blue lighten-4">
+
+            <!-- Navbar brand -->
+            <div id="logo" class="navbar-brand float-md-start mb-0">
+                <a class="navbar-brand" href="#">
+                    <img alt="logo" class="img-fluid" src="am-transparent-black-logo.svg"  />
+                </a>
             </div>
-            <nav class="nav nav-masthead justify-content-center float-md-end">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#what-i-do">What I Do</a>
-                <a class="nav-link" href="#skills">Skills</a>
-                <a class="nav-link" href="#experience">Experience</a>
-            </nav>
+        
+            <!-- Collapse button -->
+            <button 
+            class="navbar-toggler toggler-example" 
+            type="button" 
+            data-toggle="collapse" 
+            data-target="#navbarSupportedContent1"
+            aria-controls="navbarSupportedContent1" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+                <span class="dark-blue-text">
+                    <i- class="fas fa-bars fa-2x"></i>
+                </span>
+            </button>
+        
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+        
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+                </li>
+            </ul>
+            <!-- Links -->
+        
             </div>
+            <!-- Collapsible content -->
+        
+        </nav>
+        <!--/.Navbar-->
+            
         </header>
 
-        <main class="px-1" style="height: 100vh;">
+        <main class="px-1" >
             <div id="hero-section">
                 <!-- FIRST ROW -->
                 <div class="row d-flex align-middle">
