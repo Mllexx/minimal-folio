@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="style.css">
     <style>
-                .topnav {
+        .topnav {
         overflow: hidden;
         background-color: #333;
         position: relative;
@@ -38,7 +38,6 @@
         .topnav a.icon {
         background: black;
         display: block;
-        position: absolute;
         right: 0;
         top: 0;
         }
@@ -48,31 +47,11 @@
         background-color: #ddd;
         color: black;
         }
-
-        /* Style the active link (or home/logo) */
-        .active {
-        background-color: #04AA6D;
-        color: white;
-        }
     </style>
   </head>
   <body class="d-flex h-100 text-center text-bg-light">
 
-    <!-- Top Navigation Menu -->
-    <div class="topnav">
-        <a href="#home" class="active">Logo</a>
-        <!-- Navigation links (hidden by default) -->
-        <div id="myLinks">
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-        </div>
-        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-        </a>
-    </div>
-
+    
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 
         <header class="mb-auto">        
@@ -86,38 +65,30 @@
                 </a>
             </div>
         
-            <!-- Collapse button -->
-            <button 
-            class="navbar-toggler" 
-            type="button" 
-            data-toggle="collapse" 
-            data-target="#navbarSupportedContent1"
-            aria-controls="navbarSupportedContent1" 
-            aria-expanded="false" 
-            aria-label="Toggle navigation">
-                <span class="dark-blue-text">
-                    <i- class="fas fa-bars fa-2x"></i>
-                </span>
-            </button>
-        
-            <!-- Collapsible content -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-                <!-- Links -->
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">What I Do</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Skills</a>
-                    </li>
-                </ul>
-                <!-- Links -->
+            <ul id="widescreen-nav" class="nav">    
+                <li><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                <li><a class="nav-link" href="#what-i-do">What I Do</a></li>
+                <li><a class="nav-link" href="#skills">Skills</a></li>
+                <li><a class="nav-link" href="#experience">Experience</a></li>
+                <li><a class="nav-link" href="projects">Projects</a></li>
+            </ul>
+
+            <!-- Top Navigation Menu -->
+            <div id="mobile-nav" class="topnav float-md-end">
+                <div>
+                    <a href="javascript:void(0);" class="icon active" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+                <!-- Navigation links (hidden by default) -->
+                <div id="myLinks">
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
             </div>
-            <!-- Collapsible content -->
-        
+
         </nav>
         <!--/.Navbar-->
             

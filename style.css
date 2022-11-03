@@ -83,15 +83,17 @@ main{
     #intro #image{
         margin-top: -2em !important;
     }
-    #mobile-menu-icon{
+    #mobile-nav{
         display: none;
     }
 }
 
 
 @media screen and (max-width:768px) {
-    
-    nav{
+    #mobile-menu{
+        display: block !important;
+    }
+    #widescreen-nav{
         display: none !important;
     }
     #intro #image{
