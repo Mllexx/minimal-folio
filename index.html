@@ -15,37 +15,37 @@
     <link rel="stylesheet" href="style.css">
     <style>
         .topnav {
-        overflow: hidden;
-        background-color: #333;
-        position: relative;
+            overflow: hidden;
+            background-color: #333;
+            position: relative;
         }
 
         /* Hide the links inside the navigation menu (except for logo/home) */
         .topnav #myLinks {
-        display: none;
+            display: none;
         }
 
         /* Style navigation menu links */
         .topnav a {
-        color: white;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            display: block;
         }
 
         /* Style the hamburger menu */
         .topnav a.icon {
-        background: black;
-        display: block;
-        right: 0;
-        top: 0;
+            background: black;
+            display: block;
+            right: 0;
+            top: 0;
         }
 
         /* Add a grey background color on mouse-over */
         .topnav a:hover {
-        background-color: #ddd;
-        color: black;
+            background-color: #ddd;
+            color: black;
         }
     </style>
   </head>
@@ -54,26 +54,21 @@
     
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 
-        <header class="mb-auto">        
-        <!--Navbar-->
-        <nav class="navbar navbar-light lighten-4">
-
-            <!-- Navbar brand -->
-            <div id="logo" class="navbar-brand float-md-start mb-0">
-                <a class="navbar-brand" href="#">
-                    <img alt="logo" class="img-fluid" src="am-transparent-black-logo.svg"  />
-                </a>
+        <header class="mb-auto">
+            <div>
+            <div id="logo" class="float-md-start mb-0">
+                <img alt="logo" class="img-fluid" src="am-transparent-black-logo.svg"  />
             </div>
-        
-            <ul id="widescreen-nav" class="nav">    
-                <li><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                <li><a class="nav-link" href="#what-i-do">What I Do</a></li>
-                <li><a class="nav-link" href="#skills">Skills</a></li>
-                <li><a class="nav-link" href="#experience">Experience</a></li>
-                <li><a class="nav-link" href="projects">Projects</a></li>
-            </ul>
-
-            <!-- Top Navigation Menu -->
+            <nav class="navbar-collapse nav nav-masthead justify-content-center float-md-end">
+                <ul class="nav">    
+                    <li><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                    <li><a class="nav-link" href="#what-i-do">What I Do</a></li>
+                    <li><a class="nav-link" href="#skills">Skills</a></li>
+                    <li><a class="nav-link" href="#experience">Experience</a></li>
+                    <li><a class="nav-link" href="projects">Projects</a></li>
+                </ul>
+                <div class="">    
+                    <!-- Top Navigation Menu -->
             <div id="mobile-nav" class="topnav float-md-end">
                 <div>
                     <a href="javascript:void(0);" class="icon active" onclick="myFunction()">
@@ -82,16 +77,15 @@
                 </div>
                 <!-- Navigation links (hidden by default) -->
                 <div id="myLinks">
-                <a href="#news">News</a>
-                <a href="#contact">Contact</a>
-                <a href="#about">About</a>
+                    <a href="#news">News</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#about">About</a>
                 </div>
                 <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
             </div>
-
-        </nav>
-        <!--/.Navbar-->
-            
+                </div>
+            </nav>
+            </div>
         </header>
 
         <main class="px-1" >
