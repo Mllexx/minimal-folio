@@ -72,6 +72,19 @@ button{
 main{
     height: 100vh;
 }
+#mobile-nav ul{
+   /*  width: 120%;
+    left: -3.5em;
+    position: relative; */
+}
+#mobile-nav li{
+    padding-right: 0;
+    text-align: right;
+    /* border-bottom: 1px solid; */
+}
+#mobile-nav li a{
+    padding-right: 0;
+}
 
 @media screen and (min-width: 769px) {
     #hero-section{

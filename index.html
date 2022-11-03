@@ -16,19 +16,17 @@
     <style>
         .topnav {
             overflow: hidden;
-            background-color: #333;
             position: relative;
         }
 
         /* Hide the links inside the navigation menu (except for logo/home) */
-        .topnav #myLinks {
+        #mobile-nav .nav {
             display: none;
         }
 
         /* Style navigation menu links */
         .topnav a {
             color: white;
-            padding: 14px 16px;
             text-decoration: none;
             font-size: 17px;
             display: block;
@@ -36,10 +34,11 @@
 
         /* Style the hamburger menu */
         .topnav a.icon {
-            background: black;
+            /* background: black; */
             display: block;
             right: 0;
             top: 0;
+            color: white;
         }
 
         /* Add a grey background color on mouse-over */
@@ -50,16 +49,12 @@
     </style>
   </head>
   <body class="d-flex h-100 text-center text-bg-light">
-
-    
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-
-        <header class="mb-auto">
-            <div>
+        <header class="d-flex mb-auto">
             <div id="logo" class="float-md-start mb-0">
                 <img alt="logo" class="img-fluid" src="am-transparent-black-logo.svg"  />
             </div>
-            <nav class="navbar-collapse nav nav-masthead justify-content-center float-md-end">
+            <nav id="widescreen-nav" class="navbar-collapse nav nav-masthead justify-content-end float-md-end">
                 <ul class="nav">    
                     <li><a class="nav-link active" aria-current="page" href="#">Home</a></li>
                     <li><a class="nav-link" href="#what-i-do">What I Do</a></li>
@@ -67,25 +62,23 @@
                     <li><a class="nav-link" href="#experience">Experience</a></li>
                     <li><a class="nav-link" href="projects">Projects</a></li>
                 </ul>
-                <div class="">    
-                    <!-- Top Navigation Menu -->
-            <div id="mobile-nav" class="topnav float-md-end">
-                <div>
-                    <a href="javascript:void(0);" class="icon active" onclick="myFunction()">
-                        <i class="fa fa-bars"></i>
+            </nav>
+
+            <nav id="mobile-nav" class="navbar-collapse justify-content-end float-md-end">
+                <!-- Top Navigation Menu -->
+                <div class="topnav d-flex justify-content-end">
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars fa-2xl"></i>
                     </a>
                 </div>
-                <!-- Navigation links (hidden by default) -->
-                <div id="myLinks">
-                    <a href="#news">News</a>
-                    <a href="#contact">Contact</a>
-                    <a href="#about">About</a>
-                </div>
-                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-            </div>
-                </div>
+                <ul id="myLinks" class="nav justify-content-end">    
+                    <li><a class="nav-link pr-0" aria-current="page" href="#">Home</a></li>
+                    <li><a class="nav-link pr-0" href="#what-i-do">What I Do</a></li>
+                    <li><a class="nav-link" href="#skills">Skills</a></li>
+                    <li><a class="nav-link" href="#experience">Experience</a></li>
+                    <li><a class="nav-link" href="projects">Projects</a></li>
+                </ul>
             </nav>
-            </div>
         </header>
 
         <main class="px-1" >
