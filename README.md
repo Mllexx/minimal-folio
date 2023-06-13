@@ -9,4 +9,4 @@ I used [Bootstrap 5.2](https://getbootstrap.com/docs/5.2/getting-started/introdu
 
 
 ![Demo Clip](demo.gif)
-[Demo Link](https://calm-ocean-0a9326f10.2.azurestaticapps.net/)
+[Demo Link](https://minimal-folio.vercel.app)
